@@ -11,8 +11,11 @@ The second dataset used was ‘English IMD 2019’, published by the Department 
 The final dataset imported was ‘2011 Census Geography boundaries (Regions)’, published by the Office for National Statistics, was used for the regional data points. As the spatial data in the IMD dataset was at an LSOA level, another spatial dataset was needed to be able to plot a choropleth map for the regions set out by the reoffender’s dataset.
 
 Links to the webpages for the datasets:
+
 https://www.gov.uk/government/statistics/proven-reoffending-statistics-january-to-march-2020 
+
 https://data.cdrc.ac.uk/dataset/index-multiple-deprivation-imd 
+
 https://statistics.ukdataservice.ac.uk/dataset/2011-census-geography-boundaries-regions  
  
 Within this project, the code aims to clean the data appropriately, creating visualisations along the way to aid in exploration of the data. It also aims to create a regression model, to help understand the relationship between reoffending and IMD scores. As well as generating two final data visualisations, one spatial (two choropleth maps, side by side, showing both the reoffending rate and average IMD score for each region) and one non-spatial (a scatterplot of the reoffending rate by average IMD score, with an added key for regional information).
