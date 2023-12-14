@@ -10,16 +10,12 @@ The second dataset used was ‘English IMD 2019’, published by the Department 
  
 The final dataset imported was ‘2011 Census Geography boundaries (Regions)’, published by the Office for National Statistics, was used for the regional data points. As the spatial data in the IMD dataset was at an LSOA level, another spatial dataset was needed to be able to plot a choropleth map for the regions set out by the reoffender’s dataset.
  
-Links to the webpages for the datasets:
-Proven reoffending statistics: January to March 2020 - GOV.UK 
-Index of Multiple Deprivation (IMD) | CDRC Data 
-2011 Census Geography boundaries (Regions) - Dataset - UK Data Service CKAN 
- 
 Within this project, the code aims to clean the data appropriately, creating visualisations along the way to aid in exploration of the data. It also aims to create a regression model, to help understand the relationship between reoffending and IMD scores. As well as generating two final data visualisations, one spatial (two choropleth maps, side by side, showing both the reoffending rate and average IMD score for each region) and one non-spatial (a scatterplot of the reoffending rate by average IMD score, with an added key for regional information).
  
 Overall, the analysis shows us that there is a relationship between reoffending and IMD scores regionally. The more deprivation an area has, the more likely it is to have a higher rate of reoffending. It was found that the North East had both the highest reoffending rate, and also the highest IMD score. In comparison, the South East has the lowest IMD score and lowest reoffending rate. The results of this analysis agree with the large majority of the literature which suggests a correlation between poverty and crime.
  
-**Note:** In order for the notebook to work correctly, the code must be run in order. As the datasets are so large, if certain actions are run before they are clipped, it causes the kernel to die. Please also change the file paths to your own desktop when loading the data. Please use the link provided to obtain the IMD data, it is too large to upload to GitHub, the correct dataset is called 'English IMD 2019'. 
+**Note:** In order for the notebook to work correctly, the code must be run in order. As the datasets are so large, if certain actions are run before they are clipped, it causes the kernel to die. Please also change the file paths to your own desktop when loading the data. Please use the link provided below to obtain the IMD data, it is too large to upload to GitHub, the correct dataset is within the zip file called 'English IMD 2019'. The dataset is a shape file, 'IMD_2019.shp'. 
+https://data.cdrc.ac.uk/dataset/index-multiple-deprivation-imd  
  
 References:
  
