@@ -19,7 +19,7 @@ Within this project, the code aims to clean the data appropriately, creating vis
  
 Overall, the analysis shows us that there is a relationship between reoffending and IMD scores regionally. The more deprivation an area has, the more likely it is to have a higher rate of reoffending. It was found that the North East had both the highest reoffending rate, and also the highest IMD score. In comparison, the South East has the lowest IMD score and lowest reoffending rate. The results of this analysis agree with the large majority of the literature which suggests a correlation between poverty and crime.
  
-Note: in order for the notebook to work correctly, the code must be run in order. As the datasets are so large, if certain actions are run before they are clipped, it causes the kernel to die. Please also change the file paths to your own desktop when loading the data. 
+**Note:** In order for the notebook to work correctly, the code must be run in order. As the datasets are so large, if certain actions are run before they are clipped, it causes the kernel to die. Please also change the file paths to your own desktop when loading the data. Please use the link provided to obtain the IMD data, it is too large to upload to GitHub, the correct dataset is called 'English IMD 2019'. 
  
 References:
  
